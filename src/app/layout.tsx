@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${archivo.variable} antialiased`}
+        className={`antialiased`}
       >
         {children}
       </body>
