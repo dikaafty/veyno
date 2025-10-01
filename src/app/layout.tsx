@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased`}
+        className={`${SFProDisplayRegular.className} antialiased`}
       >
         {children}
       </body>
