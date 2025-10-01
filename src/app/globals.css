@@ -10,3 +10,7 @@
   --color-highlight: #00C2FF;
   --color-muted: #9CA3AF;
 }
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
