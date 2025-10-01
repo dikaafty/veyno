@@ -14,3 +14,7 @@
 @utility flex-center {
   @apply flex justify-center items-center;
 }
+
+@utility col-center {
+  @apply flex flex-col justify-center items-center;
+}
