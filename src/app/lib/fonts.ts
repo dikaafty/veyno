@@ -18,3 +18,8 @@ export const SFProDisplayBlack = localFont({
   style: "normal",
   display: "swap",
 });
+
+export const archivo = Archivo({
+  variable: "--font-archivo",
+  subsets: ["latin"],
+});
