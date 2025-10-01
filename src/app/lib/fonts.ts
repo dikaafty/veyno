@@ -1,3 +1,4 @@
+import { Archivo } from "next/font/google";
 import localFont from "next/font/local";
 
 export const SFProDisplayThin = localFont({
