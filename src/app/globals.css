@@ -18,3 +18,15 @@
 @utility col-center {
   @apply flex flex-col justify-center items-center;
 }
+
+@utility card-gradient {
+  content: "";
+  inset: 0;
+  background: radial-gradient(
+    circle at top left,
+    rgba(255, 255, 255, 0.3), 
+    rgba(255, 255, 255, 0) 70%
+  );
+  position: absolute;
+  pointer-events: none;
+}
