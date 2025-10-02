@@ -6,6 +6,8 @@ import { cn } from "@/app/lib/utils";
 import Link from "next/link";
 
 const Navbar = () => {
+  const [ activeLink, setActiveLink ] = useState<string>("Overview");
+
   return (
     <nav>
       
