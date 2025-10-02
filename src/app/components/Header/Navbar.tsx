@@ -1,4 +1,5 @@
 import { navLinks } from "@/app/lib/constants";
+import { useState } from "react";
 
 const Navbar = () => {
   return (
