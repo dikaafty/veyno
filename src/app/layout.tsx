@@ -24,7 +24,6 @@ export default function RootLayout({
       <body
         className={`${SFProDisplayRegular.className} antialiased bg-background text-foreground w-full`}
       >
-        <Navbar />
         {children}
       </body>
     </html>
