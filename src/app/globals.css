@@ -41,6 +41,10 @@
   z-index: -1;
 }
 
+@utility hamburger-stripe {
+  @apply w-6 h-0.5 bg-white rounded transition-all duration-300 ease-in-out;
+}
+
 .active-link::before {
   content: "";
   position: absolute;
