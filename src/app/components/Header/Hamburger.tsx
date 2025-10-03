@@ -10,6 +10,7 @@ const Hamburger = ({ isOpen, toggle }: Props) => {
   return (
     <button
       className="flex flex-col gap-1 sm:hidden cursor-pointer"
+      onClick={() => toggle(prev => !prev)}
     >
       
     </button>
