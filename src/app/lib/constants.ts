@@ -8,8 +8,8 @@ export const navLinks = [
     src: "/cashflow",
   },
   {
-    title: "Budget Planner",
-    src: "/budget-planner",
+    title: "Planner",
+    src: "/planner",
   },
   {
     title: "Invoicing",
