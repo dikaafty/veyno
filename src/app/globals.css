@@ -30,3 +30,13 @@
   position: absolute;
   pointer-events: none;
 }
+
+@utility button-gradient {
+  content: "";
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 8, 85, 0.3), transparent);
+  position: absolute;
+  pointer-events: none;
+  border-radius: inherit;
+  z-index: -1;
+}
