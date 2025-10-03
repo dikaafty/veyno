@@ -8,7 +8,9 @@ type Props = {
 
 const Hamburger = ({ isOpen, toggle }: Props) => {
   return (
-    <button>
+    <button
+      className="flex flex-col gap-1 sm:hidden cursor-pointer"
+    >
       
     </button>
   )
