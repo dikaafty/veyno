@@ -6,7 +6,7 @@ type Props = {
   toggle: Dispatch<SetStateAction<boolean>>,
 }
 
-const Hamburger = () => {
+const Hamburger = ({ isOpen, toggle }: Props) => {
   return (
     <button>
       
