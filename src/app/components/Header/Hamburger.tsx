@@ -14,7 +14,9 @@ const Hamburger = ({ isOpen, toggle }: Props) => {
       aria-expanded={isOpen}
       aria-controls="nav-menu"
     >
-      
+      <div className={cn("hamburger-stripe", isOpen && "rotate-45 translate-y-1.5")} />
+      <div className={cn("hamburger-stripe", isOpen && "opacity-0")} />
+      <div className={cn("hamburger-stripe", isOpen && "-rotate-45 -translate-y-1.5")} />
     </button>
   )
 }
