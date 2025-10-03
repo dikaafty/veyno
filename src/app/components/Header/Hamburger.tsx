@@ -11,6 +11,8 @@ const Hamburger = ({ isOpen, toggle }: Props) => {
     <button
       className="flex flex-col gap-1 sm:hidden cursor-pointer"
       onClick={() => toggle(prev => !prev)}
+      aria-expanded={isOpen}
+      aria-controls="nav-menu"
     >
       
     </button>
