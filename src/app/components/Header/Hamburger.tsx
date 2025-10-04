@@ -9,7 +9,7 @@ type Props = {
 const Hamburger = ({ isOpen, toggle }: Props) => {
   return (
     <button
-      className="flex flex-col gap-1 sm:hidden cursor-pointer"
+      className="nav-content flex flex-col gap-1 sm:hidden cursor-pointer"
       onClick={() => toggle(prev => !prev)}
       aria-expanded={isOpen}
       aria-controls="mobile-menu"
