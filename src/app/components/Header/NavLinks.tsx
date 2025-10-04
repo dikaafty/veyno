@@ -12,7 +12,22 @@ type Props = {
 const NavLinks = ({ isOpen, activeLink, setActiveLink }: Props) => {
   return (
     <>
-      
+      {
+        navLinks.map(link => (
+          <li key={link.title}>
+            <Link
+              href={link.src}
+              className={cn(
+                "text-sm hover:text-foreground transition-colors duration-300 ease-in-out",
+                activeLink === link.title ? "text-foreground relative active-link" : "text-muted",
+              )}
+              onClick={() => setActiveLink(link.title)}
+            >
+              {link.title}
+            </Link>
+          </li>
+        ))
+      }
     </>
   )
 }
