@@ -23,7 +23,12 @@ const Navbar = () => {
           "nav-content hidden sm:flex max-sm:flex-col gap-5 sm:gap-12"
         )}
       >
-        
+        <NavLinks 
+          isOpen={isMenuOpen} 
+          setIsOpen={setIsMenuOpen} 
+          activeLink={activeLink} 
+          setActiveLink={setActiveLink} 
+        />
       </ul>
     </nav>
   )
