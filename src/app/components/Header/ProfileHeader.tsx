@@ -17,6 +17,10 @@ const ProfileHeader = () => {
       <p className="text-sm max-lg:hidden">
         Karl Heinz
       </p>
+
+      <p className="text-xs text-muted max-lg:hidden">
+        Project Manager
+      </p>
     </div>
   )
 }
