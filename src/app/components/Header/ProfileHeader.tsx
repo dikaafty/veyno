@@ -13,6 +13,10 @@ const ProfileHeader = () => {
         height={35}
         className="row-span-2 rounded-full outline-2 outline-white"
       />
+
+      <p className="text-sm max-lg:hidden">
+        Karl Heinz
+      </p>
     </div>
   )
 }
