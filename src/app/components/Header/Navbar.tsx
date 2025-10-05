@@ -16,6 +16,15 @@ const Navbar = () => {
   return (
     <nav className="md:ml-6 relative">
       <Hamburger isOpen={isMenuOpen} toggle={setIsMenuOpen} />
+
+      <ul 
+        id="desktop-menu"
+        className={cn(
+          "nav-content hidden sm:flex max-sm:flex-col gap-5 sm:gap-12"
+        )}
+      >
+        
+      </ul>
     </nav>
   )
 }
