@@ -13,6 +13,12 @@ const Navbar = () => {
   const [ activeLink, setActiveLink ] = useState<string>("Overview");
   const [ isMenuOpen, setIsMenuOpen ] = useState<boolean>(false);
 
+  useGSAP(() => {
+    if(isMenuOpen) {
+      gsap.set("#mobile-menu", { display: "flex" });
+    }
+  }, [isMenuOpen]);
+
   useEffect(() => {
     const handleResize = (): void => {
       if(window.innerWidth >= 640) {
