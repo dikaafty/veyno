@@ -19,6 +19,8 @@ const Header = () => {
 
         <AddTransaction />
       </div>
+
+      <ProfileHeader />
     </header>
   )
 }
