@@ -14,7 +14,7 @@ const Navbar = () => {
   const [ isMenuOpen, setIsMenuOpen ] = useState<boolean>(false);
 
   return (
-    <nav>
+    <nav className="md:ml-6 relative">
       
     </nav>
   )
