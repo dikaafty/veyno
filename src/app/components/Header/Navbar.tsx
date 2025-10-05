@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="md:ml-6 relative">
-      
+      <Hamburger isOpen={isMenuOpen} toggle={setIsMenuOpen} />
     </nav>
   )
 }
