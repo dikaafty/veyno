@@ -36,6 +36,17 @@ const Navbar = () => {
         },
         ease: "power1.inOut",
       });
+
+      gsap.to("#mobile-menu", { 
+        height: 0, 
+        opacity: 0, 
+        duration: 1, 
+        ease: "power1.inOut", 
+        delay: 1,
+        onComplete: () => {
+          gsap.set("#mobile-menu", { display: "none" });
+        }
+      });
     }
   }, [isMenuOpen]);
 
