@@ -10,7 +10,7 @@ type Props = {
   setActiveLink: Dispatch<SetStateAction<string>>
 };
 
-const NavLinks = ({ isOpen, activeLink, setActiveLink }: Props) => {
+const NavLinks = ({ isOpen, setIsOpen, activeLink, setActiveLink }: Props) => {
   return (
     <>
       {
