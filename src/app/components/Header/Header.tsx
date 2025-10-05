@@ -16,6 +16,8 @@ const Header = () => {
         />
 
         <Navbar />
+
+        <AddTransaction />
       </div>
     </header>
   )
