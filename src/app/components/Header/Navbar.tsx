@@ -39,7 +39,12 @@ const Navbar = () => {
           isMenuOpen && "flex",
         )}
       >
-        
+        <NavLinks 
+          isOpen={isMenuOpen} 
+          setIsOpen={setIsMenuOpen} 
+          activeLink={activeLink} 
+          setActiveLink={setActiveLink} 
+        />
       </ul>
     </nav>
   )
