@@ -26,6 +26,16 @@ const Navbar = () => {
         { opacity: 0, },
         { opacity: 1, duration: 1, stagger: 0.1, ease: "power1.inOut", delay: 1, }
       );
+    } else {
+      gsap.to("#mobile-menu a", {
+        opacity: 0,
+        duration: 1,
+        stagger: {
+          each: 0.1,
+          from: "end",
+        },
+        ease: "power1.inOut",
+      });
     }
   }, [isMenuOpen]);
 
