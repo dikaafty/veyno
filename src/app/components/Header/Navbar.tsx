@@ -11,6 +11,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   const [ activeLink, setActiveLink ] = useState<string>("Overview");
+  const [ isMenuOpen, setIsMenuOpen ] = useState<boolean>(false);
 
   return (
     <nav>
