@@ -14,6 +14,8 @@ const Header = () => {
           alt="Veyno logo"
           priority
         />
+
+        <Navbar />
       </div>
     </header>
   )
