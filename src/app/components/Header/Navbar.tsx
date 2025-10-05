@@ -13,6 +13,20 @@ const Navbar = () => {
   const [ activeLink, setActiveLink ] = useState<string>("Overview");
   const [ isMenuOpen, setIsMenuOpen ] = useState<boolean>(false);
 
+  useEffect(() => {
+    const handleResize = (): void => {
+      if(window.innerWidth >= 640) {
+        setIsMenuOpen(false);
+      }
+    }
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <nav className="md:ml-6 relative">
       <Hamburger isOpen={isMenuOpen} toggle={setIsMenuOpen} />
