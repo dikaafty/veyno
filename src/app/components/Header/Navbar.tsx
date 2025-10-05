@@ -3,6 +3,7 @@
 import { navLinks } from "@/app/lib/constants";
 import { useState, useEffect } from "react";
 import { cn } from "@/app/lib/utils";
+import { useGSAP } from "@gsap/react";
 import Link from "next/link";
 
 const Navbar = () => {
