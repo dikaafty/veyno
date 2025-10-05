@@ -5,7 +5,7 @@ import ProfileHeader from "./ProfileHeader";
 
 const Header = () => {
   return (
-    <header>
+    <header className="py-5 px-12 flex justify-center md:justify-between items-center">
       
     </header>
   )
