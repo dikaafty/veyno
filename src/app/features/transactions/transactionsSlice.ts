@@ -13,3 +13,10 @@ type InitialState = {
   transactions: Transaction[];
   selectedTransactions: Transaction | null;
 }
+
+const initialState: InitialState = {
+  revenue: [],
+  expenses: [],
+  transactions: [],
+  selectedTransactions: null,
+}
