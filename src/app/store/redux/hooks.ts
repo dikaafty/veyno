@@ -1,1 +1,1 @@
-import { useSelector, useDispatch } from "react-redux";
+import { type TypedUseSelectorHook, useSelector, useDispatch } from "react-redux";
