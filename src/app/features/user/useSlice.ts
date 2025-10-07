@@ -13,3 +13,22 @@ const initialState: InitialState = {
   userProfession: "",
   isAuth: false,
 }
+
+const userSlice = createSlice({
+  name: "user",
+  initialState,
+  reducers: {
+    setUserFullname: (state, action) => {
+      state.userFullname = action.payload;
+    },
+    setUserNickname: (state, action) => {
+      state.userNickname = action.payload;
+    },
+    setUserProfession: (state, action) => {
+      state.userProfession = action.payload;
+    },
+    setIsAuth: (state, action) => {
+      state.isAuth = action.payload;
+    },
+  }
+});
