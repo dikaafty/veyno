@@ -71,3 +71,8 @@ const transactionsSlice = createSlice({
     }
   }
 });
+
+export const {
+  addRevenue, addExpense, addTransaction, editRevenue, editExpense, editTransaction,
+  deleteRevenue, deleteExpense, deleteTransaction, setSelectedTransaction
+} = transactionsSlice.actions;
