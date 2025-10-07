@@ -6,3 +6,10 @@ type Transaction = {
   note?: string;
   date: string;
 }
+
+type InitialState = {
+  revenue: Transaction[];
+  expenses: Transaction[];
+  transactions: Transaction[];
+  selectedTransactions: Transaction | null;
+}
