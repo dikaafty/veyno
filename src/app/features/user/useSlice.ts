@@ -1,3 +1,5 @@
+import { createSlice } from "@reduxjs/toolkit"
+
 type InitialState = {
   userFullname: string,
   userNickname: string,
