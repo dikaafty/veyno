@@ -4,3 +4,10 @@ type InitialState = {
   userProfession: string,
   isAuth: boolean,
 }
+
+const initialState: InitialState = {
+  userFullname: "",
+  userNickname: "",
+  userProfession: "",
+  isAuth: false,
+}
