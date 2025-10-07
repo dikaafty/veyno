@@ -36,3 +36,5 @@ const userSlice = createSlice({
 export const {
   setUserFullname, setUserNickname, setUserProfession, setIsAuth,
 } = userSlice.actions;
+
+export default userSlice.reducer;
