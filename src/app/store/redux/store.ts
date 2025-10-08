@@ -8,3 +8,5 @@ export const store = configureStore({
     transactions: transactionsReducer,
   }
 });
+
+export type RootState = ReturnType<typeof store.getState>;
