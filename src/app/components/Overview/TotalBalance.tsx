@@ -11,6 +11,10 @@ const TotalBalance = () => {
       <h3 id="total-balance" className="text-sm">
         Total Balance
       </h3>
+
+      <p className={`text-muted text-5xl ${SFProDisplayLight.className}`}>
+        $ <span className="text-foreground">183,802</span>.12
+      </p>
     </article>
   )
 }
