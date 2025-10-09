@@ -49,6 +49,11 @@
   .hamburger-stripe {
     @apply w-6 h-0.5 bg-white rounded transition-all duration-300 ease-in-out;
   }
+
+  .card {
+    @apply py-3 px-4.5 rounded-2xl relative shadow-[inset_0_0_2px_0.3px_rgb(255,255,255)] 
+    flex flex-col justify-between;
+  }
 }
 
 .active-link::before {
@@ -68,4 +73,8 @@
     rgba(255, 255, 255, 0.3) 80%,
     transparent 100%
   );
+}
+
+.grid-balance {
+  grid-area: 1 / 2 / 2 / 3;
 }
