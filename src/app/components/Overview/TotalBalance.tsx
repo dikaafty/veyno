@@ -15,6 +15,16 @@ const TotalBalance = () => {
       <p className={`text-muted text-5xl ${SFProDisplayLight.className}`}>
         $ <span className="text-foreground">183,802</span>.12
       </p>
+
+      <div>
+        <p className="text-muted text-xs">
+          Last updated on
+        </p>
+        
+        <p className={`text-sm ${SFProDisplayThin.className} tracking-wider`}>
+          Monday, Oct 2nd 2023 - 20.17
+        </p>
+      </div>
     </article>
   )
 }
