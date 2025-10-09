@@ -4,7 +4,7 @@ const TotalBalance = () => {
   return (
     <article 
       aria-labelledby="total-balance" 
-      className="bg-primary-card-background card grid-balance"
+      className="bg-primary-card-background card"
     >
       <div className="card-gradient rounded-2xl" />
 
