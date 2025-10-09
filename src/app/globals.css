@@ -74,7 +74,3 @@
     transparent 100%
   );
 }
-
-.grid-balance {
-  grid-area: 1 / 2 / 2 / 3;
-}
