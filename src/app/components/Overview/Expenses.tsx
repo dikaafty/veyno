@@ -4,7 +4,7 @@ const Expenses = () => {
   return (
     <article 
       aria-labelledby="expenses" 
-      className="bg-secondary-card-background card relative"
+      className="bg-secondary-card-background card"
     >
       <div className="card-gradient rounded-3xl" />
 
