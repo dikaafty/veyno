@@ -27,7 +27,9 @@ const Expenses = () => {
       </div>
 
       <div className="flex flex-col gap-2">
-        
+        <p className={`text-xs ${SFProDisplayLight.className}`}>
+          You have <span className={`${SFProDisplaySemiBold.className} underline`}>178,78</span> left from this month budget
+        </p>
       </div>
     </article>
   )
