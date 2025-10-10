@@ -9,7 +9,9 @@ const Revenue = () => {
       <div className="card-gradient rounded-3xl" />
 
       <div className="flex flex-col gap-1.5">
-        
+        <h3 id="expenses" className="text-sm">
+          Revenue this month
+        </h3>
       </div>
     </article>
   )
