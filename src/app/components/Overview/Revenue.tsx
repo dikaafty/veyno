@@ -30,6 +30,10 @@ const Revenue = () => {
         <p className={`text-xs ${SFProDisplayLight.className}`}>
           You are <span className={`${SFProDisplaySemiBold.className} underline`}>16,197,88</span> closer to your financial goals!
         </p>
+
+        <div className="w-full h-[7px] bg-black/20 rounded-full">
+          <div className="w-[91.90%] h-full bg-white rounded-full" />
+        </div>
       </div>
     </article>
   )
