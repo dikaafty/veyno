@@ -13,6 +13,12 @@ export const SFProDisplayLight = localFont({
   display: "swap",
 });
 
+export const SFProDisplayRegular = localFont({
+  src: "../../../public/fonts/SF-Pro-Display-Regular.otf",
+  style: "normal",
+  display: "swap",
+});
+
 export const SFProDisplayBlack = localFont({
   src: "../../../public/fonts/SF-Pro-Display-Black.otf",
   style: "normal",
