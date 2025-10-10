@@ -19,6 +19,12 @@ export const SFProDisplayRegular = localFont({
   display: "swap",
 });
 
+export const SFProDisplaySemiBold = localFont({
+  src: "../../../public/fonts/SF-Pro-Display-Semibold.otf",
+  style: "normal",
+  display: "swap",
+});
+
 export const SFProDisplayBlack = localFont({
   src: "../../../public/fonts/SF-Pro-Display-Black.otf",
   style: "normal",
