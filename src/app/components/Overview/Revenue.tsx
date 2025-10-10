@@ -2,7 +2,10 @@ import { SFProDisplaySemiBold,  SFProDisplayRegular, SFProDisplayLight } from "@
 
 const Revenue = () => {
   return (
-    <article>
+    <article
+      aria-labelledby="revenue"
+      className="bg-tertiary-card-background card relative grid-revenue"
+    >
       
     </article>
   )
