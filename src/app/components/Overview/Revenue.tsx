@@ -27,7 +27,9 @@ const Revenue = () => {
       </div>
 
       <div className="flex flex-col gap-2">
-        
+        <p className={`text-xs ${SFProDisplayLight.className}`}>
+          You are <span className={`${SFProDisplaySemiBold.className} underline`}>16,197,88</span> closer to your financial goals!
+        </p>
       </div>
     </article>
   )
