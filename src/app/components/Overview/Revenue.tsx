@@ -6,7 +6,7 @@ const Revenue = () => {
       aria-labelledby="revenue"
       className="bg-tertiary-card-background card relative grid-revenue"
     >
-      
+      <div className="card-gradient rounded-3xl" />
     </article>
   )
 }
