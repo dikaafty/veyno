@@ -30,6 +30,10 @@ const Expenses = () => {
         <p className={`text-xs ${SFProDisplayLight.className}`}>
           You have <span className={`${SFProDisplaySemiBold.className} underline`}>178,78</span> left from this month budget
         </p>
+
+        <div className="w-full h-[7px] bg-black/20 rounded-full">
+          <div className="w-1/4 h-full bg-white rounded-full" />
+        </div>
       </div>
     </article>
   )
