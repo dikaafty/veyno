@@ -25,6 +25,10 @@ const Revenue = () => {
           ,10
         </p>
       </div>
+
+      <div className="flex flex-col gap-2">
+        
+      </div>
     </article>
   )
 }
