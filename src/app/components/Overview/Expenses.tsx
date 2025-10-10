@@ -25,6 +25,10 @@ const Expenses = () => {
           ,09
         </p>
       </div>
+
+      <div className="flex flex-col gap-2">
+        
+      </div>
     </article>
   )
 }
