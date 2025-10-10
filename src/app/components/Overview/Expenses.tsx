@@ -12,6 +12,18 @@ const Expenses = () => {
         <h3 id="expenses" className="text-sm">
           Expenses this month
         </h3>
+
+        <p className={`text-xl text-gray-200 ${SFProDisplayLight.className}`}>
+          <span className="mr-2">
+            $
+          </span>
+
+          <span className={`text-4xl text-foreground ${SFProDisplayRegular.className}`}>
+            720
+          </span>
+
+          ,09
+        </p>
       </div>
     </article>
   )
