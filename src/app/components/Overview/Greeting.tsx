@@ -2,7 +2,7 @@ import { SFProDisplayThin, SFProDisplaySemiBold } from "@/app/lib/fonts";
 
 const Greeting = () => {
   return (
-    <p>
+    <p className={`text-3xl ${SFProDisplayThin.className}`}>
       
     </p>
   )
