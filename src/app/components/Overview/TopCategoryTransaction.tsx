@@ -36,7 +36,12 @@ const TopCategoryTransaction = () => {
             >
               <div className="flex items-center gap-3">
                 <div className="bg-white py-2 px-2 rounded-full">
-                  
+                  <Image
+                    src={item.image}
+                    width={32}
+                    height={32}
+                    alt={`${item.category} Icon`}
+                  />
                 </div>
               </div>
             </li>
