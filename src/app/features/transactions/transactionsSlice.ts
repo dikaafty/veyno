@@ -157,7 +157,8 @@ const transactionsSlice = createSlice({
 
 export const {
   addRevenue, addExpense, addTransaction, editRevenue, editExpense, editTransaction,
-  deleteRevenue, deleteExpense, deleteTransaction, setSelectedTransaction
+  deleteRevenue, deleteExpense, deleteTransaction, setSelectedTransaction, 
+  editCategoryPercentage,
 } = transactionsSlice.actions;
 
 export default transactionsSlice.reducer;
