@@ -13,6 +13,8 @@ const TopCategoryTransaction = () => {
     .slice(0, 4);
   }
 
+  const largestCategory = getTopCategoryTransaction()[0];
+
   return (
     <section>
       
