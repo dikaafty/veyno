@@ -6,6 +6,8 @@ import { cashflowMock } from "@/app/lib/constants";
 import { CashflowMock } from "@/app/lib/types";
 import CashflowSummaryChart from "./CashflowSummaryChart";
 
+const navFilters = ["All", "Revenue", "Expenses"];
+
 const CashflowSummary = () => {
   return (
     <section>
