@@ -26,7 +26,7 @@ export default function RootLayout({
         className={`${SFProDisplayRegular.className} antialiased bg-background text-foreground w-full`}
       >
         <Header />
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
