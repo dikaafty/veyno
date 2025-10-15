@@ -16,7 +16,10 @@ const TopCategoryTransaction = () => {
   const largestCategory = getTopCategoryTransaction()[0];
 
   return (
-    <section>
+    <section 
+      aria-labelledby="transaction-heading" 
+      className="bg-primary-card-background card relative z-10 col-span-2 gap-5"
+    >
       
     </section>
   )
