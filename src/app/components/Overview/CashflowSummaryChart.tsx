@@ -5,6 +5,11 @@ import { CashflowMock } from "@/app/lib/types";
 
 ChartJS.register(...registerables);
 
+type CSChartProps = {
+  activeNav: string;
+  filteredCashflow: CashflowMock[]; 
+};
+
 const CashflowSummaryChart = () => {
   return (
     <>
