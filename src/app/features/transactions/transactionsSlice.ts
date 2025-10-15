@@ -23,6 +23,80 @@ const initialState: InitialState = {
   expenses: [],
   transactions: [],
   selectedTransactions: null,
+  transactionCategories: [
+    {
+      id: "1",
+      category: "Food & Drinks",
+      image: "/images/food-drink-icon.png",
+      percentage: 42,
+    },
+    {
+      id: "1",
+      category: "Transportation",
+      image: "/images/transportation-icon.png",
+      percentage: 10,
+    },
+    {
+      id: "2",
+      category: "Housing / Rent",
+      image: "/images/rent-icon.png",
+      percentage: 5,
+    },
+    {
+      id: "3",
+      category: "Bills & Subscriptions",
+      image: "/images/bills-icon.png",
+      percentage: 3,
+    },
+    {
+      id: "4",
+      category: "Shopping",
+      image: "/images/shopping-icon.png",
+      percentage: 7,
+    },
+    {
+      id: "5",
+      category: "Health & Fitness",
+      image: "/images/health-fitness-icon.png",
+      percentage: 2,
+    },
+    {
+      id: "6",
+      category: "Education",
+      image: "/images/education-icon.png",
+      percentage: 3,
+    },
+    {
+      id: "8",
+      category: "Entertainment",
+      image: "/images/entertainment-icon.png",
+      percentage: 12,
+    },
+    {
+      id: "9",
+      category: "Investments / Savings",
+      image: "/images/investment-icon.png",
+      percentage: 0,
+    },
+    {
+      id: "10",
+      category: "Gifts / Donations",
+      image: "/images/gift-icon.png",
+      percentage: 0,
+    },
+    {
+      id: "11",
+      category: "Insurance / Tax",
+      image: "/images/tax-icon.png",
+      percentage: 5,
+    },
+    {
+      id: "12",
+      category: "Other",
+      image: "/images/other-icon.png",
+      percentage: 1,
+    },
+  ],
 }
 
 const transactionsSlice = createSlice({
