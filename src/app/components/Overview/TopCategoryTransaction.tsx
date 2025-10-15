@@ -25,6 +25,10 @@ const TopCategoryTransaction = () => {
       <h3 id="transaction-heading" className="text-sm">
         Most transaction by category
       </h3>
+
+      <ul className="flex flex-col gap-2">
+        
+      </ul>
     </section>
   )
 }
