@@ -37,6 +37,24 @@ const CashflowSummaryChart = ({ activeNav, filteredCashflow }: CSChartProps) => 
     ],
   };
 
+  const options: ChartOptions<"bar"> = {
+    animation: {},
+    maintainAspectRatio: false,
+    responsive: true,
+    scales: {
+      x: {
+        grid: {
+          display: false,
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+  };
+
   return (
     <>
       
