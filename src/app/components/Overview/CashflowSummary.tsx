@@ -13,7 +13,10 @@ const CashflowSummary = () => {
   const [ filteredCashflow, setFilteredCashflow ] = useState<CashflowMock[]>(cashflowMock);
 
   return (
-    <section>
+    <section 
+      aria-labelledby="cashflow-summary" 
+      className="bg-primary-card-background card justify-start relative z-10 flex flex-col gap-2"
+    >
       
     </section>
   )
