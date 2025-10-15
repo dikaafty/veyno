@@ -15,6 +15,7 @@ type InitialState = {
   expenses: Transaction[];
   transactions: Transaction[];
   selectedTransactions: Transaction | null;
+  transactionCategories: TransactionCategories[];
 }
 
 const initialState: InitialState = {
