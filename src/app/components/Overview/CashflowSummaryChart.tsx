@@ -3,6 +3,8 @@ import { Chart as ChartJS, registerables, type ChartOptions, type ChartConfigura
 import { Bar } from "react-chartjs-2";
 import { CashflowMock } from "@/app/lib/types";
 
+ChartJS.register(...registerables);
+
 const CashflowSummaryChart = () => {
   return (
     <>
