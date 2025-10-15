@@ -22,6 +22,10 @@ const CashflowSummary = () => {
       <h3 id="cashflow-summary" className="text-sm">
         Cashflow Summary
       </h3>
+
+      <div className="flex justify-between items-center">
+        
+      </div>
     </section>
   )
 }
