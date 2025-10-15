@@ -4,6 +4,7 @@ export type CashflowMock = {
 };
 
 export type TransactionCategories = {
+  id: string;
   category: string;
   image: string;
   percentage: number;
