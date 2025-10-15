@@ -1,3 +1,5 @@
+"use client";
+
 const CashflowSummary = () => {
   return (
     <section>
