@@ -10,7 +10,7 @@ type CSChartProps = {
   filteredCashflow: CashflowMock[]; 
 };
 
-const CashflowSummaryChart = () => {
+const CashflowSummaryChart = ({ activeNav, filteredCashflow }: CSChartProps) => {
   return (
     <>
       
