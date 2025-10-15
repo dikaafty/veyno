@@ -11,6 +11,32 @@ type CSChartProps = {
 };
 
 const CashflowSummaryChart = ({ activeNav, filteredCashflow }: CSChartProps) => {
+  const data: ChartData<"bar"> = {
+    labels: filteredCashflow.map(() => ""),
+    datasets: [
+      ...(activeNav === "All" || activeNav === "Revenue" 
+        ? [
+            {
+              label: "Revenue",
+              data: filteredCashflow.map(data => data.revenue ?? null),
+              backgroundColor: "#768BDE",
+              borderRadius: 10,
+            },
+          ] 
+        : []),
+      ...(activeNav === "All" || activeNav === "Expenses"
+        ? [
+            {
+              label: "Expenses",
+              data: filteredCashflow.map(data => data.expenses ?? null),
+              backgroundColor: "#00CFFF",
+              borderRadius: 10,
+            }
+          ]
+        : []),
+    ],
+  };
+
   return (
     <>
       
