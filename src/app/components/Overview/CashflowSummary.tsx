@@ -57,7 +57,7 @@ const CashflowSummary = () => {
       </div>
 
       <figure className="flex-1">
-        
+        <CashflowSummaryChart activeNav={activeNav} filteredCashflow={filteredCashflow} />
       </figure>
     </section>
   )
