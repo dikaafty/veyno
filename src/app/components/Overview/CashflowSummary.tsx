@@ -17,7 +17,7 @@ const CashflowSummary = () => {
       aria-labelledby="cashflow-summary" 
       className="bg-primary-card-background card justify-start relative z-10 flex flex-col gap-2"
     >
-      
+      <div className="card-gradient rounded-2xl -z-10" />
     </section>
   )
 }
