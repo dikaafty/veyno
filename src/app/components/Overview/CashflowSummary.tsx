@@ -9,6 +9,8 @@ import CashflowSummaryChart from "./CashflowSummaryChart";
 const navFilters = ["All", "Revenue", "Expenses"];
 
 const CashflowSummary = () => {
+  const [ activeNav, setActiveNav ] = useState<string>("All");
+
   return (
     <section>
       
