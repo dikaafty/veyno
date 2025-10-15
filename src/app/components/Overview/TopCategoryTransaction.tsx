@@ -34,7 +34,9 @@ const TopCategoryTransaction = () => {
               className="w-full bg-background/50 p-1.5 pr-6 rounded-full flex justify-between 
               items-center relative"
             >
-
+              <div className="flex items-center gap-3">
+                
+              </div>
             </li>
           ))
         }
