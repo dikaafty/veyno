@@ -27,7 +27,11 @@ const TopCategoryTransaction = () => {
       </h3>
 
       <ul className="flex flex-col gap-2">
-        
+        {
+          getTopCategoryTransaction().map(item => (
+            
+          ))
+        }
       </ul>
     </section>
   )
