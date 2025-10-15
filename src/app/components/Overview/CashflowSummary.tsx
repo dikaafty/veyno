@@ -18,6 +18,10 @@ const CashflowSummary = () => {
       className="bg-primary-card-background card justify-start relative z-10 flex flex-col gap-2"
     >
       <div className="card-gradient rounded-2xl -z-10" />
+
+      <h3 id="cashflow-summary" className="text-sm">
+        Cashflow Summary
+      </h3>
     </section>
   )
 }
