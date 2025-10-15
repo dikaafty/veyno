@@ -5,6 +5,8 @@ import { TransactionCategories } from "@/app/lib/types";
 import Image from "next/image";
 
 const TopCategoryTransaction = () => {
+  const transactionCategories = useAppSelector(state => state.transactions.transactionCategories);
+
   return (
     <section>
       
