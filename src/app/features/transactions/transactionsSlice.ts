@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { TransactionCategories } from "@/app/lib/types";
 
 type Transaction = {
   id: string;
