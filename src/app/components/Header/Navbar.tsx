@@ -85,7 +85,7 @@ const Navbar = () => {
       <ul 
         id="mobile-menu"
         className={cn(
-          "nav-content absolute hidden flex-col",
+          "nav-content z-20 absolute hidden flex-col",
           "gap-6 left-1/2 top-13 -translate-x-1/2",
           isMenuOpen && "flex",
         )}
