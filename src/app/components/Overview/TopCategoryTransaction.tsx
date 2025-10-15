@@ -43,6 +43,10 @@ const TopCategoryTransaction = () => {
                     alt={`${item.category} Icon`}
                   />
                 </div>
+
+                <span className="text-sm">
+                  {item.category}
+                </span>
               </div>
             </li>
           ))
