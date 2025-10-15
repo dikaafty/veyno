@@ -21,6 +21,10 @@ const TopCategoryTransaction = () => {
       className="bg-primary-card-background card relative z-10 col-span-2 gap-5"
     >
       <div className="card-gradient rounded-2xl -z-10" />
+
+      <h3 id="transaction-heading" className="text-sm">
+        Most transaction by category
+      </h3>
     </section>
   )
 }
