@@ -46,6 +46,11 @@ const CashflowSummaryChart = ({ activeNav, filteredCashflow }: CSChartProps) => 
           display: false,
         },
       },
+      y: {
+        ticks: {
+          color: "#9CA3AF",
+        },
+      },
     },
     plugins: {
       legend: {
