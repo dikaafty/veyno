@@ -29,7 +29,13 @@ const TopCategoryTransaction = () => {
       <ul className="flex flex-col gap-2">
         {
           getTopCategoryTransaction().map(item => (
-            
+            <li 
+              key={item.id} 
+              className="w-full bg-background/50 p-1.5 pr-6 rounded-full flex justify-between 
+              items-center relative"
+            >
+
+            </li>
           ))
         }
       </ul>
