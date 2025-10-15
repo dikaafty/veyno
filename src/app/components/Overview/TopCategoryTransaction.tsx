@@ -35,7 +35,9 @@ const TopCategoryTransaction = () => {
               items-center relative"
             >
               <div className="flex items-center gap-3">
-                
+                <div className="bg-white py-2 px-2 rounded-full">
+                  
+                </div>
               </div>
             </li>
           ))
