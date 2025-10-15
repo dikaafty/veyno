@@ -10,6 +10,7 @@ const navFilters = ["All", "Revenue", "Expenses"];
 
 const CashflowSummary = () => {
   const [ activeNav, setActiveNav ] = useState<string>("All");
+  const [ filteredCashflow, setFilteredCashflow ] = useState<CashflowMock[]>(cashflowMock);
 
   return (
     <section>
