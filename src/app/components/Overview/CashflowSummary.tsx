@@ -42,6 +42,18 @@ const CashflowSummary = () => {
             ))
           }
         </nav>
+
+        <ul className="flex gap-4" aria-label="Chart legend">
+          <li className="flex-center gap-1.5">
+            <span className="size-4 bg-tertiary-card-background rounded-full" aria-hidden="true" />
+            <span className="text-sm">Revenue</span>
+          </li>
+
+          <li className="flex-center gap-1.5">
+            <span className="size-4 bg-secondary-card-background rounded-full" aria-hidden="true" />
+            <span className="text-sm">Expenses</span>
+          </li>
+        </ul>
       </div>
     </section>
   )
