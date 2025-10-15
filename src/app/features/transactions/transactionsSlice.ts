@@ -144,7 +144,14 @@ const transactionsSlice = createSlice({
     },
     setSelectedTransaction: (state, action) => {
       state.transactions = action.payload;
-    }
+    },
+    editCategoryPercentage: (state, action) => {
+      const { id, updatedPercentage } = action.payload;
+      const index = state.transactionCategories.findIndex(txc => txc.id === id);
+      if(index !== -1) {
+        state.transactionCategories[index].percentage = updatedPercentage;
+      }
+    },
   }
 });
 
