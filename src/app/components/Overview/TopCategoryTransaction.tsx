@@ -48,6 +48,10 @@ const TopCategoryTransaction = () => {
                   {item.category}
                 </span>
               </div>
+
+              <span className="text-sm">
+                {`${item.percentage}%`}
+              </span>
             </li>
           ))
         }
