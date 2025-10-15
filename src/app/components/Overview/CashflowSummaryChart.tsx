@@ -57,7 +57,7 @@ const CashflowSummaryChart = ({ activeNav, filteredCashflow }: CSChartProps) => 
 
   return (
     <>
-      
+      <Bar data={data} options={options} />
     </>
   )
 }
