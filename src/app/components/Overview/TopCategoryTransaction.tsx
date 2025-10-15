@@ -52,6 +52,21 @@ const TopCategoryTransaction = () => {
               <span className="text-sm">
                 {`${item.percentage}%`}
               </span>
+
+              <div 
+                role="progressbar"
+                aria-valuenow={item.percentage}
+                aria-valuemin={0}
+                aria-valuemax={100}
+                className={
+                  `h-full bg-background/80 absolute top-0 left-0 rounded-full -z-10`
+                }
+                style={{ 
+                  width: item.id === "1"
+                  ? item.percentage + "%"
+                  : (item.percentage / largestCategory.percentage) * 100 + "%"
+                }}
+              />
             </li>
           ))
         }
