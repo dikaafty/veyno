@@ -55,6 +55,10 @@ const CashflowSummary = () => {
           </li>
         </ul>
       </div>
+
+      <figure className="flex-1">
+        
+      </figure>
     </section>
   )
 }
