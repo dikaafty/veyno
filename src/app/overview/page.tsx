@@ -8,7 +8,7 @@ import TopCategoryTransaction from "../components/Overview/TopCategoryTransactio
 export default function Page() {
   return (
     <main>
-      
+      <Greeting />
     </main>
   );
 }
