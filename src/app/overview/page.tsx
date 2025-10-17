@@ -12,6 +12,7 @@ export default function Page() {
       <CashflowSummary />
       <TotalBalance />
       <Expenses />
+      <Revenue />
     </main>
   );
 }
