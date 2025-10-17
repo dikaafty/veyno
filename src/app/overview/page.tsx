@@ -13,6 +13,7 @@ export default function Page() {
       <TotalBalance />
       <Expenses />
       <Revenue />
+      <TopCategoryTransaction />
     </main>
   );
 }
