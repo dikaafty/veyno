@@ -9,6 +9,7 @@ export default function Page() {
   return (
     <main>
       <Greeting />
+      <CashflowSummary />
     </main>
   );
 }
