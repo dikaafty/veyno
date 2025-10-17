@@ -10,6 +10,7 @@ export default function Page() {
     <main>
       <Greeting />
       <CashflowSummary />
+      <TotalBalance />
     </main>
   );
 }
