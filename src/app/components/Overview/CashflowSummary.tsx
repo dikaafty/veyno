@@ -52,7 +52,13 @@ const CashflowSummary = () => {
               className="w-28 pl-4 bg-background/70 rounded-xl py-2 appearance-none text-sm
               focus:outline-2 focus:outline-foreground peer"
             >
-              
+              {
+                navFilters.map(nav => (
+                  <option key={nav} value={nav}>
+                    {nav}
+                  </option>
+                ))
+              }
             </select>
           </div>
         </nav>
