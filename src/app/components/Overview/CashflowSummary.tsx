@@ -31,7 +31,8 @@ const CashflowSummary = () => {
               <button
                 key={nav}
                 className={cn(
-                  "py-2.5 px-8 text-sm rounded-full cursor-pointer transition-colors duration-300 ease-in-out",
+                  "py-2.5 px-8 text-sm rounded-full cursor-pointer transition-colors duration-300", 
+                  "ease-in-out max-sm:hidden",
                 activeNav === nav ? "bg-background/70" : "bg-background/20"
                 )}
                 onClick={() => {
