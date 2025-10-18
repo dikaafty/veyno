@@ -45,7 +45,15 @@ const CashflowSummary = () => {
           }
 
           <div className="flex sm:hidden relative">
-            
+            <select
+              aria-label="Select Cashflow Filters"
+              value={activeNav}
+              onChange={(e) => setActiveNav(e.target.value)}
+              className="w-28 pl-4 bg-background/70 rounded-xl py-2 appearance-none text-sm
+              focus:outline-2 focus:outline-foreground peer"
+            >
+              
+            </select>
           </div>
         </nav>
 
