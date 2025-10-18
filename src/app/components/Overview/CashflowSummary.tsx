@@ -24,7 +24,7 @@ const CashflowSummary = () => {
         Cashflow Summary
       </h3>
 
-      <div className="flex justify-between items-center">
+      <div className="flex max-sm:flex-col justify-between items-center max-sm:gap-3">
         <nav aria-label="Cashflow Filters" className="flex gap-2">
           {
             navFilters.map(nav => (
