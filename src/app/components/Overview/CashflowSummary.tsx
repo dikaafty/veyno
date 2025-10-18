@@ -43,6 +43,10 @@ const CashflowSummary = () => {
               </button>
             ))
           }
+
+          <div className="flex sm:hidden relative">
+            
+          </div>
         </nav>
 
         <ul className="flex gap-4" aria-label="Chart legend">
