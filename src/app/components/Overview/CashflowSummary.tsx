@@ -60,6 +60,13 @@ const CashflowSummary = () => {
                 ))
               }
             </select>
+
+            <span 
+              className="absolute top-1/2 right-3 pointer-events-none border-[5.5px] rounded-none
+              border-l-transparent border-r-transparent border-t-foreground border-b-transparent
+              transition-all duration-500 ease-in-out peer-focus:rotate-180 peer-focus:-translate-y-1/2 
+              peer-focus:duration-300"
+            />
           </div>
         </nav>
 
