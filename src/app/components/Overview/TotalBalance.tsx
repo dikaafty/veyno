@@ -14,7 +14,8 @@ const TotalBalance = () => {
       </h3>
 
       <p className={`text-muted text-5xl ${SFProDisplayLight.className}`}>
-        $ <span className="text-foreground">183,802</span>.12
+        <span className="max-xs:text-4xl max-lg:text-5xl max-[1200px]:text-xl">$</span>{" "}
+        <span className="text-foreground">183,802</span>.12
       </p>
 
       <div>
