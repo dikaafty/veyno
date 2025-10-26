@@ -4,7 +4,7 @@ const Revenue = () => {
   return (
     <article
       aria-labelledby="revenue"
-      className="bg-tertiary-card-background card relative grid-revenue"
+      className="bg-tertiary-card-background card relative grid-revenue max-xs:col-span-4 max-md:col-span-2 max-lg:col-span-1"
     >
       <div className="card-gradient rounded-3xl" />
 
