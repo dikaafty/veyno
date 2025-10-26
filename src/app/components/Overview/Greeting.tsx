@@ -2,7 +2,8 @@ import { SFProDisplayThin, SFProDisplaySemiBold } from "@/app/lib/fonts";
 
 const Greeting = () => {
   return (
-    <p className={`text-3xl ${SFProDisplayThin.className}`}>
+    <p className={`text-2xl md:text-3xl ${SFProDisplayThin.className} row-start-1 row-end-2 col-start-1 
+    col-span-4 lg:col-end-2`}>
       <span className="text-muted">Welcome back, </span>
 
       <span className={`text-secondary-card-background ${SFProDisplaySemiBold.className}`}> 
