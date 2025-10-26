@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+  --breakpoint-xs: 26.563rem; /* 425px */
+
   --color-background: #0E0E12;
   --color-foreground: #FFFFFF;
   --color-navbar-background: #18181C;
