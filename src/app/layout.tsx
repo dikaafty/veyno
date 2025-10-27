@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Providers } from "./providers";
 import localFont from "next/font/local";
-import Header from "./components/Header/Header";
+import Header from "@/components/Header/Header";
 import "./globals.css";
 
 const SFProDisplayRegular = localFont({
