@@ -1,6 +1,6 @@
 "use client";
 
-import { useAppSelector } from "@/app/store/redux/hooks";
+import { useAppSelector } from "@/store/redux/hooks";
 import { TransactionCategories } from "@/lib/types";
 import Image from "next/image";
 
