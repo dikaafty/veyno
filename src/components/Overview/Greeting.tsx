@@ -1,4 +1,4 @@
-import { SFProDisplayThin, SFProDisplaySemiBold } from "@/app/lib/fonts";
+import { SFProDisplayThin, SFProDisplaySemiBold } from "@/lib/fonts";
 
 const Greeting = () => {
   return (

@@ -1,4 +1,4 @@
-import { SFProDisplayLight, SFProDisplayThin } from "@/app/lib/fonts";
+import { SFProDisplayLight, SFProDisplayThin } from "@/lib/fonts";
 
 const TotalBalance = () => {
   return (

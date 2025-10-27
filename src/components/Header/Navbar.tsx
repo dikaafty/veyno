@@ -1,8 +1,8 @@
 "use client";
 
-import { navLinks } from "@/app/lib/constants";
+import { navLinks } from "@/lib/constants";
 import { useState, useEffect } from "react";
-import { cn } from "@/app/lib/utils";
+import { cn } from "@/lib/utils";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Link from "next/link";

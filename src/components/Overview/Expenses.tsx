@@ -1,4 +1,4 @@
-import { SFProDisplaySemiBold, SFProDisplayRegular, SFProDisplayLight } from "@/app/lib/fonts";
+import { SFProDisplaySemiBold, SFProDisplayRegular, SFProDisplayLight } from "@/lib/fonts";
 
 const Expenses = () => {
   return (

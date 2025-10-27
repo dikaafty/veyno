@@ -1,6 +1,6 @@
-import { navLinks } from "@/app/lib/constants";
+import { navLinks } from "@/lib/constants";
 import { Dispatch, SetStateAction } from "react";
-import { cn } from "@/app/lib/utils";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 type Props = {
