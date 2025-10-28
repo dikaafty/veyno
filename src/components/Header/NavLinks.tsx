@@ -1,6 +1,7 @@
 import { navLinks } from "@/lib/constants";
 import { Dispatch, SetStateAction } from "react";
 import { cn } from "@/lib/utils";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 type Props = {
