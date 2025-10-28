@@ -75,8 +75,6 @@ const Navbar = () => {
         <NavLinks 
           isOpen={isMenuOpen} 
           setIsOpen={setIsMenuOpen} 
-          activeLink={activeLink} 
-          setActiveLink={setActiveLink} 
         />
       </ul>
 
@@ -91,8 +89,6 @@ const Navbar = () => {
         <NavLinks 
           isOpen={isMenuOpen} 
           setIsOpen={setIsMenuOpen} 
-          activeLink={activeLink} 
-          setActiveLink={setActiveLink} 
         />
       </ul>
     </nav>
