@@ -23,7 +23,7 @@ const NavLinks = ({ isOpen, setIsOpen, activeLink, setActiveLink }: Props) => {
               href={link.src}
               className={cn(
                 "text-sm hover:text-foreground transition-colors duration-300 ease-in-out",
-                activeLink === link.title ? "text-foreground relative active-link" : "text-muted",
+                isActive ? "text-foreground relative active-link" : "text-muted",
               )}
               onClick={() => setIsOpen(false)}
             >
