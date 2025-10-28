@@ -7,8 +7,6 @@ import Link from "next/link";
 type Props = {
   isOpen: boolean,
   setIsOpen: Dispatch<SetStateAction<boolean>>,
-  activeLink: string,
-  setActiveLink: Dispatch<SetStateAction<string>>
 };
 
 const NavLinks = ({ isOpen, setIsOpen, }: Props) => {
