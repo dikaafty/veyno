@@ -7,7 +7,7 @@ import Revenue from "@/components/Overview/Revenue";
 import TopCategoryTransaction from "@/components/Overview/TopCategoryTransaction";
 
 export const metadata: Metadata = {
-  title: "Veyno | Overview",
+  title: "Overview",
 };
 
 export default function Page() {
