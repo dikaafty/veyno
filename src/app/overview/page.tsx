@@ -1,9 +1,14 @@
+import type { Metadata } from "next";
 import Greeting from "@/components/Overview/Greeting";
 import CashflowSummary from "@/components/Overview/CashflowSummary";
 import TotalBalance from "@/components/Overview/TotalBalance";
 import Expenses from "@/components/Overview/Expenses";
 import Revenue from "@/components/Overview/Revenue";
 import TopCategoryTransaction from "@/components/Overview/TopCategoryTransaction";
+
+export const metadata: Metadata = {
+  title: "Veyno | Overview",
+};
 
 export default function Page() {
   return (
