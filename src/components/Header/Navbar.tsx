@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import Link from "next/link";
 import Hamburger from "./Hamburger";
 import NavLinks from "./NavLinks";
 
