@@ -1,6 +1,5 @@
 "use client";
 
-import { navLinks } from "@/lib/constants";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { useGSAP } from "@gsap/react";
