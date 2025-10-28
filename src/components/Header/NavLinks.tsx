@@ -22,7 +22,9 @@ const NavLinks = ({ isOpen, setIsOpen, activeLink, setActiveLink }: Props) => {
           || (pathname.startsWith(link.src) && link.src !== "/");
           
           return (
-            
+            <li key={link.title}>
+              
+            </li>
           );
         })
       }
