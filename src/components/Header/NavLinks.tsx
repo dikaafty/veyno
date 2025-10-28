@@ -12,6 +12,8 @@ type Props = {
 };
 
 const NavLinks = ({ isOpen, setIsOpen, activeLink, setActiveLink }: Props) => {
+  const pathname = usePathname();
+
   return (
     <>
       {
