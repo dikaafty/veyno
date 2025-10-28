@@ -11,7 +11,10 @@ const SFProDisplayRegular = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Veyno",
+  title: {
+    default: "Veyno",
+    template: "Veyno | %s",
+  },
   description: "Finance Tracker App",
 };
 
