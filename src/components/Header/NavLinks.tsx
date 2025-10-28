@@ -18,7 +18,9 @@ const NavLinks = ({ isOpen, setIsOpen, activeLink, setActiveLink }: Props) => {
     <>
       {
         navLinks.map(link => {
-          
+          return (
+            
+          );
         })
       }
     </>
