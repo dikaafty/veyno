@@ -23,7 +23,16 @@ const NavLinks = ({ isOpen, setIsOpen, activeLink, setActiveLink }: Props) => {
           
           return (
             <li key={link.title}>
-              
+              <Link
+                href={link.src}
+                className={cn(
+                  "text-sm hover:text-foreground transition-colors duration-300 ease-in-out",
+                  isActive ? "text-foreground relative active-link" : "text-muted",
+                )}
+                onClick={() => setIsOpen(false)}
+              >
+                {link.title}
+              </Link>
             </li>
           );
         })
