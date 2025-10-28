@@ -11,7 +11,7 @@ type Props = {
   setActiveLink: Dispatch<SetStateAction<string>>
 };
 
-const NavLinks = ({ isOpen, setIsOpen, activeLink, setActiveLink }: Props) => {
+const NavLinks = ({ isOpen, setIsOpen, }: Props) => {
   const pathname = usePathname();
 
   return (
