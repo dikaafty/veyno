@@ -18,6 +18,9 @@ const NavLinks = ({ isOpen, setIsOpen, activeLink, setActiveLink }: Props) => {
     <>
       {
         navLinks.map(link => {
+          const isActive = pathname === link.src 
+          || (pathname.startsWith(link.src) && link.src !== "/");
+          
           return (
             
           );
