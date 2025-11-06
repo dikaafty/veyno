@@ -1,3 +1,5 @@
+import { SFProDisplayLight, SFProDisplayRegular } from "@/lib/fonts";
+
 const TotalBalance = () => {
   return (
     <section>
