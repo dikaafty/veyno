@@ -7,7 +7,7 @@ const TotalBalance = () => {
       className="bg-primary-card-background card row-start-3 row-end-4 lg:row-start-1 
       lg:row-end-2 col-start-1 lg:col-start-2 col-span-4 md:col-span-2"
     >
-      <div className="card-gradient rounded-2xl" />
+      <div className="card-gradient" />
 
       <h3 id="total-balance" className="text-sm">
         Total Balance
