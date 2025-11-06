@@ -43,3 +43,42 @@ export const cashflowMock = [
     expenses: 838,
   },
 ];
+
+export const fullCasflowMock = [
+  {
+    revenue: 1992,
+    expenses: 534,
+  },
+  {
+    revenue: 1872,
+    expenses: 679,
+  },
+  {
+    revenue: 1215,
+    expenses: 123,
+  },
+  {
+    revenue: 458,
+    expenses: 542,
+  },
+  {
+    revenue: 1240,
+    expenses: 528,
+  },
+  {
+    revenue: 3128,
+    expenses: 153,
+  },
+  {
+    revenue: 1500,
+    expenses: 1400,
+  },
+  {
+    revenue: 978,
+    expenses: 2923,
+  },
+  {
+    revenue: 600,
+    expenses: 838,
+  },
+];
