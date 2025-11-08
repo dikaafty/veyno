@@ -6,6 +6,11 @@ import {
 } from "chart.js";
 import { fullCasflowMock } from "@/lib/constants";
 
+type Data = {
+  revenue: number;
+  expenses: number;
+};
+
 const TotalBalanceChart = () => {
   const lastWeekCashflow = fullCasflowMock.slice(2);
   const lastWeekRevenue = lastWeekCashflow.map((item) => item.revenue);
