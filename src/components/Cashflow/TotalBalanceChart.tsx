@@ -8,8 +8,8 @@ import { fullCasflowMock } from "@/lib/constants";
 
 const TotalBalanceChart = () => {
   const lastWeekCashflow = fullCasflowMock.slice(2);
-  const lastWeekRevenue = fullCasflowMock.slice(2).map(item => item.revenue);
-  const lastWeekExpenses = fullCasflowMock.slice(2).map(item => item.revenue);
+  const lastWeekRevenue = lastWeekCashflow.map((item) => item.revenue);
+  const lastWeekExpenses = lastWeekCashflow.map((item) => item.expenses);
 
   return (
     <>
