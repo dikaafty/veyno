@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import TotalBalance from "@/components/Cashflow/TotalBalance";
 
 export const metadata: Metadata = {
   title: "Cashflow",
