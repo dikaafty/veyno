@@ -95,7 +95,7 @@ const TotalBalanceChart = () => {
 
   return (
     <>
-
+      <Chart type="bar" data={data} options={options} />
     </>
   );
 };
