@@ -29,6 +29,10 @@ const TotalBalance = () => {
           <TrendingUp size={18} className="drop-shadow-[0_0_5px_#00CFFF]" />
         </span>
       </div>
+
+      <figure className="flex-1">
+        
+      </figure>
     </section>
   );
 };
