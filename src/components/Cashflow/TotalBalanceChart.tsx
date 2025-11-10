@@ -34,6 +34,35 @@ const TotalBalanceChart = () => {
       .slice(2);
   };
 
+  const data: ChartData<CombinedChart> = {
+    labels: ["Mon", "Tue", "Web", "Thu", "Fri", "Sat", "Sun"],
+    datasets: [
+      {
+        type: "line" as const,
+        label: "Moving Average",
+        data: getWeeklyMovingAverage(fullCasflowMock),
+        borderColor: "#FFFFFF",
+        borderWidth: 2,
+        tension: 0.4,
+        borderDash: [7, 7],
+      },
+      {
+        type: "bar" as const,
+        label: "Revenue",
+        data: lastWeekRevenue,
+        backgroundColor: "#768BDE",
+        borderRadius: 10,
+      },
+      {
+        type: "bar" as const,
+        label: "Expenses",
+        data: lastWeekExpenses,
+        backgroundColor: "#00CFFF",
+        borderRadius: 10,
+      },
+    ],
+  };
+
   return (
     <>
 
