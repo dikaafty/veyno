@@ -7,6 +7,8 @@ import {
 import { fullCasflowMock } from "@/lib/constants";
 import { Chart } from "react-chartjs-2";
 
+ChartJS.register(...registerables);
+
 type Data = {
   revenue: number;
   expenses: number;
