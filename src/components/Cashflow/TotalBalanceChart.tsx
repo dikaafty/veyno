@@ -14,6 +14,8 @@ type Data = {
   expenses: number;
 };
 
+type CombinedChart = "bar" | "line";
+
 const TotalBalanceChart = () => {
   const lastWeekCashflow = fullCasflowMock.slice(2);
   const lastWeekRevenue = lastWeekCashflow.map((item) => item.revenue);
