@@ -12,7 +12,9 @@ const TotalBalance = () => {
 
       <div className="w-full flex justify-between items-center">
         <div className="flex flex-col">
-          
+          <h3 id="total-balance" className="text-sm">
+            Total Balance
+          </h3>
         </div>
       </div>
     </section>
