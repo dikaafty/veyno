@@ -4,8 +4,9 @@ import TotalBalanceChart from "./TotalBalanceChart";
 
 const TotalBalance = () => {
   return (
-    <section>
-      
+    <section
+      aria-labelledby="total-balance"
+    >
     </section>
   );
 };
