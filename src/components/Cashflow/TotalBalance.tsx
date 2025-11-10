@@ -31,7 +31,7 @@ const TotalBalance = () => {
       </div>
 
       <figure className="flex-1">
-        
+        <TotalBalanceChart />
       </figure>
     </section>
   );
