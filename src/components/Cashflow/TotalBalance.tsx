@@ -9,6 +9,10 @@ const TotalBalance = () => {
       className="bg-primary-card-background card relative z-10 flex flex-col gap-5"
     >
       <div className="card-gradient -z-10" />
+
+      <div className="w-full flex justify-between items-center">
+       
+      </div>
     </section>
   );
 };
