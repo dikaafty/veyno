@@ -6,6 +6,7 @@ const TotalBalance = () => {
   return (
     <section
       aria-labelledby="total-balance"
+      className="bg-primary-card-background card relative z-10 flex flex-col gap-5"
     >
     </section>
   );
