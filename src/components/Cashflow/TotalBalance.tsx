@@ -11,7 +11,9 @@ const TotalBalance = () => {
       <div className="card-gradient -z-10" />
 
       <div className="w-full flex justify-between items-center">
-       
+        <div className="flex flex-col">
+          
+        </div>
       </div>
     </section>
   );
