@@ -63,6 +63,36 @@ const TotalBalanceChart = () => {
     ],
   };
 
+  const options: ChartOptions<CombinedChart> = {
+    animation: {},
+    maintainAspectRatio: false,
+    responsive: true,
+    scales: {
+      x: {
+        ticks: {
+          color: "#9CA3AF",
+        },
+        grid: {
+          display: false,
+        },
+      },
+      y: {
+        ticks: {
+          color: "#9CA3AF",
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+    interaction: {
+      mode: "index",
+      intersect: false,
+    },
+  };
+
   return (
     <>
 
