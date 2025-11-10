@@ -5,6 +5,7 @@ import {
   type ChartData,
 } from "chart.js";
 import { fullCasflowMock } from "@/lib/constants";
+import { Chart } from "react-chartjs-2";
 
 type Data = {
   revenue: number;
