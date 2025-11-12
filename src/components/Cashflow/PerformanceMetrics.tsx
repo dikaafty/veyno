@@ -1,6 +1,8 @@
 const PerformanceMetrics = () => {
   return (
-    <section>
+    <section
+      aria-labelledby="performance-metrics"
+    >
       
     </section>
   )
