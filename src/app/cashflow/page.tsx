@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main>
+    <main className="px-6 py-9 grid grid-cols-[2fr_1fr] gap-2">
       <TotalBalance />
       <PerformanceMetrics />
     </main>
