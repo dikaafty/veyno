@@ -48,6 +48,10 @@
   @apply text-secondary-card-background [text-shadow:0_0_5px_#00CFFF]; 
 }
 
+@utility text-tertiary-shadow {
+  @apply text-tertiary-card-background [text-shadow:0_0_5px_#768BDE];
+}
+
 @layer components {
   .nav-content {
     @apply bg-navbar-background py-2.5 px-8 rounded-4xl border-2 border-[#282A2B];
