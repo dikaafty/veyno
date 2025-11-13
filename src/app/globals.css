@@ -44,6 +44,10 @@
   z-index: -1;
 }
 
+@utility text-secondary-shadow {
+  @apply text-secondary-card-background [text-shadow:0_0_5px_#00CFFF]; 
+}
+
 @layer components {
   .nav-content {
     @apply bg-navbar-background py-2.5 px-8 rounded-4xl border-2 border-[#282A2B];
