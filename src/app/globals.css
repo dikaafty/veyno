@@ -64,6 +64,10 @@
     h3 {
       @apply text-sm;
     }
+
+    p {
+      @apply text-xl;
+    }
   }
 }
 
