@@ -60,6 +60,10 @@
 
   .performance-metrics-article {
     @apply bg-background/50 rounded-2xl p-2 flex flex-col justify-between;
+
+    h3 {
+      @apply text-sm;
+    }
   }
 }
 
