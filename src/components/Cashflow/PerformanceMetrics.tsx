@@ -1,3 +1,5 @@
+import { SFProDisplayLight, SFProDisplaySemiBold } from "@/lib/fonts";
+
 const PerformanceMetrics = () => {
   return (
     <section
