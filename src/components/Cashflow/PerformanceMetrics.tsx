@@ -1,4 +1,5 @@
 import { SFProDisplayLight, SFProDisplaySemiBold } from "@/lib/fonts";
+import { ArrowUp } from "lucide-react";
 
 const PerformanceMetrics = () => {
   return (
