@@ -26,7 +26,7 @@ const TotalBalance = () => {
 
         <span className="text-sm text-secondary-shadow flex gap-2">
           +2.5% vs last month
-          <TrendingUp size={18} className="drop-shadow-[0_0_5px_#00CFFF]" />
+          <TrendingUp size={18} className="icon-secondary-shadow" />
         </span>
       </div>
 
