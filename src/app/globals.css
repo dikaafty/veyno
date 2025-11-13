@@ -57,6 +57,10 @@
     @apply py-3 px-4.5 rounded-2xl relative shadow-[inset_0_0_2px_0.3px_rgb(255,255,255)] 
     flex flex-col justify-between;
   }
+
+  .performance-metrics-article {
+    @apply bg-background/50 rounded-2xl p-2 flex flex-col justify-between;
+  }
 }
 
 .active-link::before {
