@@ -1,5 +1,6 @@
 import { SFProDisplayLight, SFProDisplaySemiBold } from "@/lib/fonts";
 import { ArrowUp, ArrowDown, Minus } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const performanceMetricsArticles = [
   {
@@ -44,7 +45,7 @@ const PerformanceMetrics = () => {
         
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default PerformanceMetrics;
