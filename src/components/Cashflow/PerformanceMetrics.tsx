@@ -1,6 +1,33 @@
 import { SFProDisplayLight, SFProDisplaySemiBold } from "@/lib/fonts";
 import { ArrowUp } from "lucide-react";
 
+const performanceMetricsArticles = [
+  {
+    title: "Net Margins",
+    label: "net-margins",
+    value: "45.2%",
+    growthRate: 1.5,
+  },
+  {
+    title: "Avg Daily Inflow",
+    label: "avg-daily-inflow",
+    value: "$1.230",
+    growthRate: 5,
+  },
+  {
+    title: "Expense Ratio",
+    label: "expense-ratio",
+    value: "22.8%",
+    growthRate: -0.8,
+  },
+  {
+    title: "Transactions",
+    label: "transactions",
+    value: 1.402,
+    growthRate: null,
+  },
+];
+
 const PerformanceMetrics = () => {
   return (
     <section
