@@ -43,7 +43,13 @@ const PerformanceMetrics = () => {
 
       <div className="size-full grid grid-cols-2 grid-rows-2 gap-2">
         {performanceMetricsArticles.map((article) => (
-          
+          <article
+            key={article.title}
+            aria-labelledby={article.label}
+            className="bg-background/50 rounded-2xl py-2.5 px-3 flex flex-col justify-between"
+          >
+            
+          </article>
         ))}
       </div>
     </section>
