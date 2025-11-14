@@ -62,6 +62,23 @@ const PerformanceMetrics = () => {
               ) : (
                 <Minus size={20} />
               )}
+
+              <span
+                className={cn(
+                  "text-xs",
+                  Number(article.growthRate) > 0
+                    ? "text-secondary-shadow"
+                    : Number(article.growthRate) < 0
+                    ? "text-tertiary-shadow"
+                    : ""
+                )}
+              >
+                {Number(article.growthRate) > 0
+                  ? "+" + article.growthRate + "%"
+                  : Number(article.growthRate) < 0
+                  ? article.growthRate + "%"
+                  : ""}
+              </span>
             </div>
           </article>
         ))}
