@@ -55,7 +55,13 @@ const PerformanceMetrics = () => {
             <p className="text-xl">{article.value}</p>
 
             <div className="flex items-center gap-0.5">
-              
+              {Number(article.growthRate) > 0 ? (
+                <ArrowUp size={16} className="icon-secondary-shadow" />
+              ) : Number(article.growthRate) < 0 ? (
+                <ArrowDown size={16} className="icon-tertiary-shadow" />
+              ) : (
+                <Minus size={20} />
+              )}
             </div>
           </article>
         ))}
