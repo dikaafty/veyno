@@ -48,7 +48,9 @@ const PerformanceMetrics = () => {
             aria-labelledby={article.label}
             className="bg-background/50 rounded-2xl py-2.5 px-3 flex flex-col justify-between"
           >
-            
+            <h3 id={article.label} className="text-sm">
+              {article.title}
+            </h3>
           </article>
         ))}
       </div>
