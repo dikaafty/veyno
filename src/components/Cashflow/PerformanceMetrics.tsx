@@ -53,6 +53,10 @@ const PerformanceMetrics = () => {
             </h3>
 
             <p className="text-xl">{article.value}</p>
+
+            <div className="flex items-center gap-0.5">
+              
+            </div>
           </article>
         ))}
       </div>
