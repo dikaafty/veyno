@@ -42,7 +42,9 @@ const PerformanceMetrics = () => {
       </h2>
 
       <div className="size-full grid grid-cols-2 grid-rows-2 gap-2">
-        
+        {performanceMetricsArticles.map((article) => (
+          
+        ))}
       </div>
     </section>
   );
