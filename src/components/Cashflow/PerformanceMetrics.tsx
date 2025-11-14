@@ -51,6 +51,8 @@ const PerformanceMetrics = () => {
             <h3 id={article.label} className="text-sm">
               {article.title}
             </h3>
+
+            <p className="text-xl">{article.value}</p>
           </article>
         ))}
       </div>
