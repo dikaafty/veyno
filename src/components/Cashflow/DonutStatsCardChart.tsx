@@ -6,6 +6,7 @@ import {
   type ChartOptions,
   type ChartData,
 } from "chart.js";
+import { Doughnut } from "react-chartjs-2";
 
 const DonutStatsCardChart = () => {
   return <></>;
