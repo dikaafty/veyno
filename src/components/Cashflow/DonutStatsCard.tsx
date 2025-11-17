@@ -1,7 +1,7 @@
 type DonutStatsCardProps = {
   title: string;
   total: number;
-  items: { title: string; value: number };
+  items: { title: string; value: number }[];
 };
 
 const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
