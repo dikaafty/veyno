@@ -4,7 +4,7 @@ type DonutStatsCardProps = {
   items: { title: string; value: number };
 };
 
-const DonutStatsCard = () => {
+const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
   return (
     <section>
       
