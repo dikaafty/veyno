@@ -73,22 +73,6 @@
     @apply py-3 px-4.5 rounded-2xl relative shadow-[inset_0_0_2px_0.3px_rgb(255,255,255)] 
     flex flex-col justify-between;
   }
-
-  .performance-metrics-article {
-    @apply bg-background/50 rounded-2xl py-2.5 px-3 flex flex-col justify-between;
-
-    h3 {
-      @apply text-sm;
-    }
-
-    p {
-      @apply text-xl;
-    }
-
-    div {
-      @apply flex gap-0.5 items-center;
-    }
-  }
 }
 
 .active-link::before {
