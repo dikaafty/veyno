@@ -80,6 +80,12 @@ const DonutStatsCardChart = ({
 }: DonutStatsCardChartProps) => {
   const isIncome = title.includes("Income");
 
+  const getChartColors = (): string[] => {
+    return isIncome
+      ? ["#0DF2F2", "#4ADE80", "#154C4E"]
+      : ["#8A2BE2", "#EF4444", "#2E254B"];
+  };
+
   return <></>;
 };
 
