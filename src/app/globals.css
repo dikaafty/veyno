@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "SFProDisplayRegular";
+  src: url("/public/fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @theme {
   --breakpoint-xs: 26.563rem; /* 425px */
 
