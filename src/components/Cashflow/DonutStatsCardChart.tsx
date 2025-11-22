@@ -15,6 +15,14 @@ type DonutStatsCardChartProps = {
   items: { title: string; value: number }[];
 };
 
+type CenterTextLine = {
+  text: string;
+  fontSize?: number;
+  fontWeight?: string;
+  color?: string;
+  offsetY?: number;
+};
+
 const DonutStatsCardChart = () => {
   return <></>;
 };
