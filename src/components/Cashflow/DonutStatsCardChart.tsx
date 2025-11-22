@@ -86,6 +86,18 @@ const DonutStatsCardChart = ({
       : ["#8A2BE2", "#EF4444", "#2E254B"];
   };
 
+  const data: ChartData<"doughnut"> = {
+    labels: items.map((item) => item.title),
+    datasets: [
+      {
+        label: `${isIncome ? "Top Income" : "Top Expense"}`,
+        data: items.map((item) => item.value),
+        backgroundColor: getChartColors(),
+        borderWidth: 0,
+      },
+    ],
+  };
+
   return <></>;
 };
 
