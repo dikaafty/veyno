@@ -129,7 +129,7 @@ const DonutStatsCardChart = ({
     cutout: "80%",
   };
 
-  return <></>;
+  return <Doughnut data={data} options={options} />;
 };
 
 export default DonutStatsCardChart;
