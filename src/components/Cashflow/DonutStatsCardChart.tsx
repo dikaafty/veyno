@@ -78,6 +78,8 @@ const DonutStatsCardChart = ({
   total,
   items,
 }: DonutStatsCardChartProps) => {
+  const isIncome = title.includes("Income");
+
   return <></>;
 };
 
