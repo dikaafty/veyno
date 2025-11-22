@@ -9,6 +9,12 @@ import {
 } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 
+type DonutStatsCardChartProps = {
+  title: string;
+  total: string;
+  items: { title: string; value: number }[];
+};
+
 const DonutStatsCardChart = () => {
   return <></>;
 };
