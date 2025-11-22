@@ -5,6 +5,7 @@ import {
   registerables,
   type ChartOptions,
   type ChartData,
+  type Plugin,
 } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 
