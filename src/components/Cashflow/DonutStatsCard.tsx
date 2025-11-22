@@ -1,3 +1,5 @@
+import DonutStatsCardChart from "./DonutStatsCardChart";
+
 type DonutStatsCardProps = {
   title: string;
   total: number;
