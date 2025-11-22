@@ -98,6 +98,37 @@ const DonutStatsCardChart = ({
     ],
   };
 
+  const options: ChartOptions<"doughnut"> = {
+    animation: {},
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      centerText: {
+        lines: [
+          {
+            text: "Total",
+            fontSize: 14,
+            fontWeight: "normal",
+            color: "#9CA3AF",
+            offsetY: 0,
+          },
+          {
+            text: total,
+            fontSize: 20,
+            fontWeight: "normal",
+            color: "#FFFFFF",
+            offsetY: 0,
+          },
+        ],
+        lineSpacing: 8,
+      },
+      legend: {
+        display: false,
+      },
+    },
+    cutout: "80%",
+  };
+
   return <></>;
 };
 
