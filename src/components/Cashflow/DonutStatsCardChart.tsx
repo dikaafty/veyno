@@ -23,6 +23,11 @@ type CenterTextLine = {
   offsetY?: number;
 };
 
+export type CenterTextOptions = {
+  lines: CenterTextLine[];
+  lineSpacing?: number;
+};
+
 const DonutStatsCardChart = () => {
   return <></>;
 };
