@@ -73,7 +73,11 @@ const centerTextPlugin: Plugin<"doughnut", CenterTextOptions> = {
 
 ChartJS.register(...registerables, centerTextPlugin);
 
-const DonutStatsCardChart = () => {
+const DonutStatsCardChart = ({
+  title,
+  total,
+  items,
+}: DonutStatsCardChartProps) => {
   return <></>;
 };
 
