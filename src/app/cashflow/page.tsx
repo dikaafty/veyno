@@ -18,6 +18,11 @@ export default function Page() {
         total="$8,450"
         items={topRevenueMock}
       />
+      <DonutStatsCard 
+        title="Top Expense Sources"
+        total="$3,820"
+        items={topExpenseMock}
+      />
     </main>
   );
 }
