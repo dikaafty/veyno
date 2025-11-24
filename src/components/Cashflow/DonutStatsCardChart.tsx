@@ -80,12 +80,6 @@ const DonutStatsCardChart = ({
 }: DonutStatsCardChartProps) => {
   const isRevenue = title.includes("Revenue");
 
-  const getChartColors = (): string[] => {
-    return isRevenue
-      ? ["#0DF2F2", "#4ADE80", "#154C4E"]
-      : ["#8A2BE2", "#EF4444", "#2E254B"];
-  };
-
   const data: ChartData<"doughnut"> = {
     labels: items.map((item) => item.title),
     datasets: [
