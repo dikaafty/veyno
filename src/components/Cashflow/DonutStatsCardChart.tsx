@@ -90,7 +90,7 @@ const DonutStatsCardChart = ({
     labels: items.map((item) => item.title),
     datasets: [
       {
-        label: `${isRevenue ? "Top Income" : "Top Expense"}`,
+        label: `${isRevenue ? "Top Revenue" : "Top Expense"}`,
         data: items.map((item) => item.value),
         backgroundColor: getChartColors(),
         borderWidth: 0,
