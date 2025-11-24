@@ -97,3 +97,18 @@ export const topRevenueMock = [
     value: 15,
   },
 ];
+
+export const topExpenseMock = [
+  {
+    title: "Food & Drinks",
+    value: 45,
+  },
+  {
+    title: "Entertainment",
+    value: 30,
+  },
+  {
+    title: "Other",
+    value: 25,
+  },
+];
