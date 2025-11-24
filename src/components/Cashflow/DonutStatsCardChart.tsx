@@ -78,10 +78,10 @@ const DonutStatsCardChart = ({
   total,
   items,
 }: DonutStatsCardChartProps) => {
-  const isIncome = title.includes("Income");
+  const isRevenue = title.includes("Income");
 
   const getChartColors = (): string[] => {
-    return isIncome
+    return isRevenue
       ? ["#0DF2F2", "#4ADE80", "#154C4E"]
       : ["#8A2BE2", "#EF4444", "#2E254B"];
   };
@@ -90,7 +90,7 @@ const DonutStatsCardChart = ({
     labels: items.map((item) => item.title),
     datasets: [
       {
-        label: `${isIncome ? "Top Income" : "Top Expense"}`,
+        label: `${isRevenue ? "Top Income" : "Top Expense"}`,
         data: items.map((item) => item.value),
         backgroundColor: getChartColors(),
         borderWidth: 0,
