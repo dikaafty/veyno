@@ -2,10 +2,11 @@ import { topRevenueMock, topExpenseMock } from "@/lib/constants";
 import type { Metadata } from "next";
 import TotalBalance from "@/components/Cashflow/TotalBalance";
 import PerformanceMetrics from "@/components/Cashflow/PerformanceMetrics";
+import DonutStatsCard from "@/components/Cashflow/DonutStatsCard";
 
 export const metadata: Metadata = {
   title: "Cashflow",
-}
+};
 
 export default function Page() {
   return (
