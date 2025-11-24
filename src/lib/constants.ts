@@ -82,3 +82,18 @@ export const fullCasflowMock = [
     expenses: 838,
   },
 ];
+
+export const topRevenueMock = [
+  {
+    title: "Client Projects",
+    value: 60,
+  },
+  {
+    title: "Consulting",
+    value: 25,
+  },
+  {
+    title: "Other",
+    value: 15,
+  },
+];
