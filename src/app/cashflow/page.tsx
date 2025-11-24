@@ -13,6 +13,11 @@ export default function Page() {
     <main className="px-6 py-9 grid grid-cols-[2fr_1fr] gap-2">
       <TotalBalance />
       <PerformanceMetrics />
+      <DonutStatsCard
+        title="Top Revenue Sources"
+        total="$8,450"
+        items={topRevenueMock}
+      />
     </main>
   );
 }
