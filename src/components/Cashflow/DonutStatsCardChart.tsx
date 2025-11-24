@@ -78,7 +78,7 @@ const DonutStatsCardChart = ({
   total,
   items,
 }: DonutStatsCardChartProps) => {
-  const isRevenue = title.includes("Income");
+  const isRevenue = title.includes("Revenue");
 
   const getChartColors = (): string[] => {
     return isRevenue
