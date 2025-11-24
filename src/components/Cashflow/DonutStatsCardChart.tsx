@@ -13,6 +13,7 @@ type DonutStatsCardChartProps = {
   title: string;
   total: string;
   items: { title: string; value: number }[];
+  getChartColors: () => string[];
 };
 
 type CenterTextLine = {
