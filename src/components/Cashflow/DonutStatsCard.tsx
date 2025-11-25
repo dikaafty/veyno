@@ -40,7 +40,11 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
             items.map((item, idx) => (
               <li key={item.title} className="flex justify-between items-center">
                 <div className="flex items-center gap-2">
-                  
+                  <div
+                    aria-hidden="true"
+                    className="size-3 rounded-full"
+                    style={{ backgroundColor: chartColors[idx] }}
+                  />
                 </div>
               </li>
             ))
