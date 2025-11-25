@@ -38,7 +38,9 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
         <ul aria-label="Chart legend" className="flex flex-col gap-4 flex-1">
           {
             items.map((item, idx) => (
-              
+              <li key={item.title} className="flex justify-between items-center">
+                
+              </li>
             ))
           }
         </ul>
