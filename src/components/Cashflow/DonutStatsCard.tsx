@@ -39,7 +39,9 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
           {
             items.map((item, idx) => (
               <li key={item.title} className="flex justify-between items-center">
-                
+                <div className="flex items-center gap-2">
+                  
+                </div>
               </li>
             ))
           }
