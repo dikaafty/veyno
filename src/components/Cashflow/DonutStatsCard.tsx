@@ -22,6 +22,8 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
       className="bg-primary-card-background card relative z-10 flex flex-col gap-4"
     >
       <div className="card-gradient -z-10" />
+
+      <h1 id="card-label">{title}</h1>
     </section>
   );
 };
