@@ -13,7 +13,7 @@ type DonutStatsCardChartProps = {
   title: string;
   total: string;
   items: { title: string; value: number }[];
-  getChartColors: () => string[];
+  chartColors: string[];
 };
 
 type CenterTextLine = {
@@ -78,7 +78,7 @@ const DonutStatsCardChart = ({
   title,
   total,
   items,
-  getChartColors
+  chartColors,
 }: DonutStatsCardChartProps) => {
   const isRevenue = title.includes("Revenue");
 
@@ -88,7 +88,7 @@ const DonutStatsCardChart = ({
       {
         label: `${isRevenue ? "Top Revenue" : "Top Expense"}`,
         data: items.map((item) => item.value),
-        backgroundColor: getChartColors(),
+        backgroundColor: chartColors,
         borderWidth: 0,
       },
     ],
