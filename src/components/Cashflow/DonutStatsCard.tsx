@@ -36,7 +36,11 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
         </figure>
 
         <ul aria-label="Chart legend" className="flex flex-col gap-4 flex-1">
-          
+          {
+            items.map((item, idx) => (
+              
+            ))
+          }
         </ul>
       </div>
     </section>
