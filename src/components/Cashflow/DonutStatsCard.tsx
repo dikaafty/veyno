@@ -26,7 +26,9 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
       <h1 id="card-label">{title}</h1>
 
       <div className="flex justify-between items-center">
-        
+        <figure className="w-50 h-40 mr-4.5">
+          
+        </figure>
       </div>
     </section>
   );
