@@ -34,6 +34,10 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
             chartColors={chartColors}
           />
         </figure>
+
+        <ul aria-label="Chart legend" className="flex flex-col gap-4 flex-1">
+          
+        </ul>
       </div>
     </section>
   );
