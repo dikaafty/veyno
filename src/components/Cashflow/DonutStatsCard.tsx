@@ -17,7 +17,9 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
   const chartColors = getChartColors();
 
   return (
-    <section>
+    <section
+      aria-labelledby="card-label"
+    >
       
     </section>
   );
