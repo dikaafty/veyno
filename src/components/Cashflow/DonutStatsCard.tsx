@@ -21,7 +21,7 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
       aria-labelledby="card-label"
       className="bg-primary-card-background card relative z-10 flex flex-col gap-4"
     >
-      
+      <div className="card-gradient -z-10" />
     </section>
   );
 };
