@@ -24,6 +24,10 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
       <div className="card-gradient -z-10" />
 
       <h1 id="card-label">{title}</h1>
+
+      <div className="flex justify-between items-center">
+        
+      </div>
     </section>
   );
 };
