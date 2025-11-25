@@ -24,6 +24,7 @@ export default function Page() {
         total="$3,820"
         items={topExpenseMock}
       />
+      <CashflowInsights />
     </main>
   );
 }
