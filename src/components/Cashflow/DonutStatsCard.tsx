@@ -1,3 +1,4 @@
+import { SFProDisplaySemiBold } from "@/lib/fonts";
 import DonutStatsCardChart from "./DonutStatsCardChart";
 
 type DonutStatsCardProps = {
