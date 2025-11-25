@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import TotalBalance from "@/components/Cashflow/TotalBalance";
 import PerformanceMetrics from "@/components/Cashflow/PerformanceMetrics";
 import DonutStatsCard from "@/components/Cashflow/DonutStatsCard";
+import CashflowInsights from "@/components/Cashflow/CashflowInsights";
 
 export const metadata: Metadata = {
   title: "Cashflow",
