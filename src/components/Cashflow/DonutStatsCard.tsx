@@ -45,6 +45,10 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
                     className="size-3 rounded-full"
                     style={{ backgroundColor: chartColors[idx] }}
                   />
+          
+                  <span className="text-sm">
+                    {item.title}
+                  </span>
                 </div>
               </li>
             ))
