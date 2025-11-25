@@ -50,6 +50,10 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
                     {item.title}
                   </span>
                 </div>
+          
+                <span className={`${SFProDisplaySemiBold.className} text-sm`}>
+                  {item.value + "%"}
+                </span>
               </li>
             ))
           }
