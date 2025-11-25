@@ -27,7 +27,12 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
 
       <div className="flex justify-between items-center">
         <figure className="w-50 h-40 mr-4.5">
-          
+          <DonutStatsCardChart
+            title={title}
+            total={total}
+            items={items}
+            chartColors={chartColors}
+          />
         </figure>
       </div>
     </section>
