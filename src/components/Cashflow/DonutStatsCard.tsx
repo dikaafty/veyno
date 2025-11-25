@@ -14,6 +14,8 @@ const DonutStatsCard = ({ title, total, items }: DonutStatsCardProps) => {
       : ["#8A2BE2", "#EF4444", "#2E254B"];
   };
 
+  const chartColors = getChartColors();
+
   return (
     <section>
       
