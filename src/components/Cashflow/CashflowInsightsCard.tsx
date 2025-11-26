@@ -39,6 +39,13 @@ const CashflowInsightsCard = ({
               </span>{" "}
               <span>/ 10</span>
             </span>
+
+            <div
+              aria-hidden="true"
+              className="flex-1 h-[7px] bg-white/10 rounded-full"
+            >
+              
+            </div>
           </div>
         )}
       </div>
