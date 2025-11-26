@@ -44,7 +44,10 @@ const CashflowInsightsCard = ({
               aria-hidden="true"
               className="flex-1 h-[7px] bg-white/10 rounded-full"
             >
-              
+              <div
+                className="h-full bg-yellow-300 rounded-full"
+                style={{ width: `${score * 10}%` }}
+              />
             </div>
           </div>
         )}
