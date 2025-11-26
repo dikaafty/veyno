@@ -67,9 +67,9 @@ const PerformanceMetrics = () => {
                 className={cn(
                   "text-xs",
                   Number(article.growthRate) > 0
-                    ? "text-secondary-shadow"
-                    : Number(article.growthRate) < 0
                     ? "text-tertiary-shadow"
+                    : Number(article.growthRate) < 0
+                    ? "text-secondary-shadow"
                     : ""
                 )}
               >
