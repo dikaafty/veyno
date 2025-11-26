@@ -37,7 +37,9 @@ const CashflowInsights = () => {
       </h1>
 
       <div className="grid grid-cols-3 gap-3">
-        
+        {insightsMock.map(({ title, icon, description, score }) => (
+          
+        ))}
       </div>
     </section>
   );
