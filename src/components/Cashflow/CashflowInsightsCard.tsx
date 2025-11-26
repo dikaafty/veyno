@@ -27,7 +27,7 @@ const CashflowInsightsCard = ({
       />
 
       <div className="flex flex-col flex-1">
-        
+        <p className="text-sm">{description}</p>
       </div>
     </article>
   );
