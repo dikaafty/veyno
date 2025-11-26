@@ -8,7 +8,12 @@ type CashflowInsightsCardProps = {
   score: number | null;
 };
 
-const CashflowInsightsCard = () => {
+const CashflowInsightsCard = ({
+  title,
+  Icon,
+  description,
+  score,
+}: CashflowInsightsCardProps) => {
   return (
     <article>
       
