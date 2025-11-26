@@ -31,7 +31,14 @@ const CashflowInsightsCard = ({
 
         {score && (
           <div className="flex items-center gap-2">
-            
+            <span className="text-muted text-base">
+              <span
+                className={`${SFProDisplaySemiBold.className} text-foreground text-xl`}
+              >
+                {score}
+              </span>{" "}
+              <span>/ 10</span>
+            </span>
           </div>
         )}
       </div>
