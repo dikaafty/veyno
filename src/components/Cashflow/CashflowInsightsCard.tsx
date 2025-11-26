@@ -15,7 +15,7 @@ const CashflowInsightsCard = ({
   score,
 }: CashflowInsightsCardProps) => {
   return (
-    <article>
+    <article className="bg-background/50 rounded-2xl p-3 flex-center gap-3">
       
     </article>
   );
