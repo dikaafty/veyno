@@ -30,7 +30,9 @@ const CashflowInsightsCard = ({
         <p className="text-sm">{description}</p>
 
         {score && (
-          
+          <div className="flex items-center gap-2">
+            
+          </div>
         )}
       </div>
     </article>
