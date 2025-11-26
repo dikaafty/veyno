@@ -16,7 +16,15 @@ const CashflowInsightsCard = ({
 }: CashflowInsightsCardProps) => {
   return (
     <article className="bg-background/50 rounded-2xl p-3 flex-center gap-3">
-      
+      <Icon
+        className={`${
+          title.includes("Revenue")
+            ? "text-tertiary-card-background"
+            : title.includes("Expenses")
+            ? "text-secondary-card-background"
+            : "text-yellow-300"
+        }`}
+      />
     </article>
   );
 };
