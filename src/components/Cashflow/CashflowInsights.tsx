@@ -1,4 +1,5 @@
 import { ArrowDown, TrendingUp, ShieldCheck } from "lucide-react";
+import CashflowInsightsCard from "./CashflowInsightsCard";
 
 const CashflowInsights = () => {
   return (
