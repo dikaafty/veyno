@@ -58,7 +58,7 @@ const PerformanceMetrics = () => {
               {Number(article.growthRate) > 0 ? (
                 <ArrowUp size={16} className="icon-tertiary-shadow" />
               ) : Number(article.growthRate) < 0 ? (
-                <ArrowDown size={16} className="icon-tertiary-shadow" />
+                <ArrowDown size={16} className="icon-secondary-shadow" />
               ) : (
                 <Minus size={20} />
               )}
