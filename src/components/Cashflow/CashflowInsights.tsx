@@ -38,7 +38,13 @@ const CashflowInsights = () => {
 
       <div className="grid grid-cols-3 gap-3">
         {insightsMock.map(({ title, icon, description, score }) => (
-          
+          <CashflowInsightsCard
+            key={title}
+            title={title}
+            Icon={icon}
+            description={description}
+            score={score}
+          />
         ))}
       </div>
     </section>
