@@ -7,6 +7,10 @@ const CashflowInsights = () => {
       className="bg-primary-card-background card relative z-10 flex flex-col gap-3"
     >
       <div className="card-gradient -z-10" />
+
+      <h1 id="cashflow-insights" className="text-lg">
+        Insights
+      </h1>
     </section>
   );
 };
