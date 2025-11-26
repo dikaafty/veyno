@@ -25,6 +25,10 @@ const CashflowInsightsCard = ({
             : "text-yellow-300"
         }`}
       />
+
+      <div className="flex flex-col flex-1">
+        
+      </div>
     </article>
   );
 };
